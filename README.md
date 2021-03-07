@@ -22,7 +22,7 @@ cdk init app -l=typescript      # Initialize cdk for a particular language (type
 ```
 - entry point for our project 
 ```
-`app\bin\app.ts`
+app\bin\app.ts
 
 const app = new cdk.App();
 
