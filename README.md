@@ -15,6 +15,15 @@ Draw Diagram online :
 - Initialize the project
 ```
 npm install -g aws-cdk          # Install cdk 
+mkdir app                       # cdk init needs an empty dir .Create an empty one for app
+cd app
 cdk init                        # Inialize cdk
 cdk init app -l=typescript      # Initialize cdk for a particular language (typescript) for appname app
+```
+- entry point for our project 
+```
+`app\bin\app.ts`
+
+const app = new cdk.App();
+
 ```
