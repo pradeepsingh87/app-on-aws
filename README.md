@@ -1,29 +1,27 @@
-### Architecure Diagram
-<img src="images/Architure Diagrma.JPG" >
+Video URL - 
+https://www.twitch.tv/videos/892197005
 
-Draw Diagram online : 
-- https://app.diagrams.net/
+<a href = "https://pages.awscloud.com/traincert-twitch-dev-hour?sc_icampaign=event_twitch_devhour_refresh2_tnc_GLOBAL_TRAINCERT_300-ModernApps&sc_ichannel=ha&sc_icontent=awssm-7179_tnc&sc_iplace=ribbon&trk=ha_awssm-7179_tnc">Dev Series</a>
 
-### AWS Cloud Development Kit (CDK) 
-<img src="images\AWS CDK.JPG" >
+Git Hub URL - 
+https://github.com/aws-samples/aws-dev-hour-backend
 
-### Anatomy of an app
-<img src="images\AnatomyApp.JPG" >
+CDK Course - 
+https://aws.amazon.com/training/course-descriptions/developing/
 
-### Project In Action
-- Pre Requisite : awscli , npm , aws-cdk
-- Initialize the project
-```
-npm install -g aws-cdk          # Install cdk 
-mkdir app                       # cdk init needs an empty dir .Create an empty one for app
-cd app
-cdk init                        # Inialize cdk
-cdk init app -l=typescript      # Initialize cdk for a particular language (typescript) for appname app
-```
-- entry point for our project 
-```
-app\bin\app.ts
+Local Stack 
+https://github.com/localstack/localstack
 
-const app = new cdk.App();
+Other Links
+https://aws.amazon.com/blogs/mobile/deploying-a-static-website-with-aws-amplify-and-cdk/
+https://docs.aws.amazon.com/cdk/latest/guide/home.html
+https://docs.aws.amazon.com/cdk/api/latest/docs/aws-construct-library.html
 
-```
+CDK uses CloudFormation in the backend. So CloudFormation drift can help with figuring out the state
+
+Here's a way to do smoke tests: 
+https://docs.aws.amazon.com/cdk/latest/guide/testing.html
+
+Online links 
+https://docs.aws.amazon.com/cdk/latest/guide/videos.html
+
